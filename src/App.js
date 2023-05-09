@@ -1,4 +1,4 @@
-import "./App.css";
+import "./scss/app.scss";
 import Navbar from "./components/Navbar.jsx";
 import Header from "./components/Header.jsx";
 import Card from "./components/Card.jsx";

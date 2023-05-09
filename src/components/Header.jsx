@@ -1,5 +1,7 @@
+import headerStyle from "../scss/header.module.scss";
+
 const Header = () => {
-  return <h1>Whats Your Sign?</h1>;
+  return <h1 className={headerStyle.header}>Whats Your Sign?</h1>;
 };
 
 export default Header;
