@@ -22,7 +22,8 @@
     background-color: rgba(0, 0, 0, 0.763);
     position: absolute;
     bottom: 0px;
-    left: 30rem;
+    transform: translateX(110%);
+    // left: 30rem;
     width: 370px;
     margin: 0.5rem 0;
     padding: 1rem 0.5rem;
@@ -38,6 +39,7 @@
     p {
       bottom: 0px;
       left: 1.25rem;
+      transform: translateX(0%);
     }
   }
 }
