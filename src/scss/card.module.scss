@@ -9,7 +9,7 @@
   overflow: hidden;
   position: relative;
   img {
-    margin: 1.5rem 0;
+    margin: 1.5rem 0 0.5rem;
     width: 380px;
     height: 275px; // height: 275px;
     border-radius: 15px;
@@ -17,19 +17,22 @@
     filter: grayscale(0%);
   }
   p {
-    place-self: center;
-    align-self: center;
+    text-align: justify;
     background-color: rgba(0, 0, 0, 0.763);
     position: absolute;
-    bottom: 0px;
+    bottom: 0;
     transform: translateX(110%);
-    // left: 30rem;
+    max-height: 50%;
+    overflow-y: scroll;
     width: 370px;
     margin: 0.5rem 0;
-    padding: 1rem 0.5rem;
+    padding: 0.7rem 0.7rem;
     border-radius: 10px;
     font-family: cursive;
     transition: 0.7s ease-in-out;
+    &::-webkit-scrollbar {
+      display: none;
+    }
   }
   &:hover {
     img {
